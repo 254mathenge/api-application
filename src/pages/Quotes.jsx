@@ -1,7 +1,6 @@
 /* eslint-disable no-undef */
 import "./Quotes.css"
 
-import ClipLoader from "react-spinners/ClipLoader";
 import { useState } from 'react';
 
 const Quotes = () => {
@@ -43,14 +42,6 @@ const Quotes = () => {
                 <form>
                     <button onClick={handleGetQuote} className="button">Get Quote</button>
                 </form>
-                <ClipLoader
-        color={color}
-        loading={loading}
-        cssOverride={override}
-        size={150}
-        aria-label="Loading Spinner"
-        data-testid="loader"
-      />
             </div>
         </div>
         
