@@ -10,7 +10,7 @@ const Quotes = () => {
   const [loading, setLoading] = useState();
 
   async function handleGetQuote(event) {
-    event.preventDefault;
+    event.preventDefault();
 
     try {
       const api_url = "https://api.adviceslip.com/advice";
