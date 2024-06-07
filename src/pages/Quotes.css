@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-size: rem;
+  font-family: "Libre Baskerville", serif;
+}
+.random-quotes {
+    
+  border: 2px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ max-width: 700px;
+  padding: 4rem ;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  gap: 2rem;
+}
+.get-quote{
+    background-color: orangered;
+    color: white;
+    padding: 1rem 3rem;
+    font-weight: 600;
+border-radius: 15px;
+align-items: center;
+transition: all ease 0.3s;
+}
+.get-quote:hover{
+  transform: scale(0.9);
+}
+.button{
+    background-color: orangered;
+    color: white;
+}
